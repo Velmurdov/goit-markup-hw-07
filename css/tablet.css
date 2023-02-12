@@ -1,0 +1,136 @@
+@media screen and (min-width: 768px) {
+    .container {
+      width: 582px;
+    }
+/* --------------------------HEADER------------------------------- */
+.header-nav{
+  margin-left: 120px;
+}
+
+.header-list{
+  display: flex;
+  
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+
+.header > .container {
+  width: 100%;
+}
+.mob-menu-btn {
+  display: none;
+}
+ .menu-close-btn {
+  display: none;
+}
+
+.contacts-list{
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+
+}
+
+.contacts-link{
+  font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: auto;
+  width: 119px;
+}
+
+    /* --------------------------HERO------------------------------- */
+
+    .hero-title {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.1;
+      /* or 107% */
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+    
+     width: 318px;
+     margin: 0 auto;
+     margin-bottom: 40px;
+      }
+    
+    
+     
+      .hero {
+         background-image:  linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ) , url(../img/hero-bg-tablet.jpg);
+          padding: 112px 0;
+      }
+/* --------------------------FUTURES------------------------------- */
+.futures > .container {
+   width: 766px;
+}    
+.futures-list {
+   gap: 24px;
+ }
+
+.futures-item {
+      width: calc((100% - 30px) / 2);
+  
+    }
+/* --------------------------TEAM------------------------------- */
+    .team {
+ padding: 96px 108px 104px;
+    }
+
+    .team-item {
+    width: calc((100% - 30px) / 2);
+    }
+ /* ----------------------------CUSTOMERS-------------------------------------- */
+
+ .customers-list{
+    justify-content: space-evenly;
+ }
+    .customers-item {
+        width: calc((100% - 30px) / 4);  }
+   
+
+
+ /* --------------------------PORTFOLIO-SLIDES------------------------------- */
+ .portfolio-slides > .container {
+   width: 766px;
+}   
+ .portfolio-slides-item {
+   width: calc((100% - 30px) / 2)
+ }
+ /* --------------------------FOOTER------------------------------- */
+
+ .footer-container {
+   justify-content:flex-start ;
+ }
+
+ .soc-media {
+  margin-left: 24px;
+  margin-top: 0;
+}
+ .footer-subscribe {
+  
+   margin-top: 72px;
+   margin-right: 150px;
+ }
+ .footer-title {
+   margin-left: 0;
+ }
+.footer-subscribe-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.footer-input{
+width: 264px;
+}
+
+}

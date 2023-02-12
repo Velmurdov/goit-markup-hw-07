@@ -1,0 +1,184 @@
+
+@media screen and (min-width: 1200px) {
+    .container {
+      width: 1128px;
+    }
+
+
+    /* -------------------------- HEADER ------------------------------- */
+
+    .header > .container {
+      width: 1128px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 15px; 
+    }
+
+    .header-nav {
+      margin-left : 76px;
+    }
+
+    .contacts-list
+    { flex-direction: row;
+      margin-left: auto;
+    }
+   
+   .contacts-item{
+      margin-right: 40px;
+   }
+   .contacts-item:nth-child(2n) {
+      margin-right: 0;
+   }
+    
+    .contacts-link {
+      width: 153px;
+      display: block;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    
+  
+      font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: var(--lh-header-text);
+    letter-spacing: 0.02em;
+    color: var(--text-color,#434455);
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+
+
+/* -------------------------- HERO ------------------------------- */
+    .hero{  
+    
+      background-image:  linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ) , url(../img/hero-bg-desktop.jpg);
+      width: 100%;
+    padding: 188px 0 ;
+    margin: 0 auto;
+    
+}
+
+.hero-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+/* or 107% */
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+width: 496px;
+margin: 0 auto;
+margin-bottom: 48px;
+}
+
+
+    /* --------------------------FUTURES------------------------------- */
+.futures > .container {
+  width: 1128px;
+}    
+.futures-list {
+  justify-content: space-evenly;
+  gap: 24px;
+}
+
+.futures-item {
+     width: calc((100% - 90px) / 4);
+ 
+   }
+
+ /* --------------------------SLIDES------------------------------- */
+
+   .slides-item {
+    margin-right: 24px;
+  }
+  
+  
+  .slides {
+  display: block;
+    padding-bottom: 120px;
+ }
+ .slides-caption {
+     font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.11;
+ /* identical to box height, or 111% */
+ text-align: center;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #2E2F42;
+ margin-bottom: 72px;
+ }
+ .slides-list {
+   display: flex;
+ 
+ }
+ .slides-item {
+   margin-right: 24px;
+ }
+ .slides-item:nth-child(3n)
+{
+   margin-right: 0;
+}
+ 
+    
+
+
+    /* --------------------------TEAM------------------------------- */
+    .team {
+        padding: 120px 0px;
+    }
+   .team-list {
+    
+    justify-content: space-evenly;
+   }
+   .team-item {
+    width: calc((100% - 90px) / 4 );
+   }
+ /* ----------------------------CUSTOMERS--------------------------------------- */
+   .customer-flex {
+    padding: 120px 0px; 
+   }
+   
+   .customers-list{
+    justify-content: center;
+ }
+   .customers-item {
+    width: calc((100% - 150px) / 6);  }
+
+     /* --------------------------PORTFOLIO-SLIDES------------------------------- */
+ .portfolio-slides > .container {
+  width: 1128px;
+}   
+.portfolio-slides-item {
+  width: calc((100% - 60px) / 3)
+
+  }
+
+/* --------------------------FOOTER------------------------------- */
+
+  .footer-container {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+  }
+
+  .footer-content {
+    width: 264px;
+  
+  }
+  .footer-subscribe {
+    
+   margin: 0;
+  } 
+  .soc-media {
+    
+
+  }
+}

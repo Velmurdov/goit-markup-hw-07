@@ -1,0 +1,58 @@
+@media screen and (min-width: 428px) {
+    .container {
+      width: 396px;
+    }
+/* --------------------------HERO------------------------------- */
+
+    .hero-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        /* or 107% */
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+      
+       width: 318px;
+       margin: 0 auto;
+       margin-bottom: 72px;
+        }
+      
+      
+       
+        .hero{
+        
+            padding: 112px 0;
+        }
+
+ /* --------------------------FUTURES------------------------------- */
+
+    .futures {  
+        padding: 120px 0 ;
+         
+        }
+      
+        .futures-list {
+          gap: 72px;
+        }
+
+       
+        /* --------------------------FOOTER------------------------------- */
+
+        .footer-container {
+           
+        }
+        .footer-subscribe {
+            
+           margin-right: auto;
+          
+        }
+
+        .footer-subscribe-wrap {
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+   
+  }
