@@ -13,7 +13,7 @@
 }
 .contacts-list {
   display: flex;
-  align-items: center;
+  align-items: flex-start ;
 }
 
 .header > .container {
@@ -48,18 +48,18 @@ letter-spacing: 0.04em;
 
     .hero-title {
       font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.1;
-      /* or 107% */
-      letter-spacing: 0.02em;
-      color: #FFFFFF;
-    
-     width: 318px;
-     margin: 0 auto;
-     margin-bottom: 40px;
-      }
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.07;
+
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  
+          width: 494px;
+          margin: 0 auto;  
+   margin-bottom: 40px;
+    }
     
     
      
@@ -70,6 +70,7 @@ letter-spacing: 0.04em;
       ) , url(../img/hero-bg-tablet.jpg);
           padding: 112px 0;
           max-width: 768px;
+          max-height: 436px;
       }
 /* --------------------------FUTURES------------------------------- */
 .futures > .container {
@@ -91,9 +92,11 @@ letter-spacing: 0.04em;
       display: flex;
      flex-wrap: wrap;
      justify-content: center;
-     gap: 24px;
+     gap: 64px 24px ;
      
     }
+
+   
 
     .team-item {
     width: calc((100% - 30px) / 2);
@@ -101,10 +104,10 @@ letter-spacing: 0.04em;
  /* ----------------------------CUSTOMERS-------------------------------------- */
 
  .customers-list{
-    justify-content: space-evenly;
+    gap: 72px 24px;
  }
     .customers-item {
-        width: calc((100% - 30px) / 4);  }
+        width: 168px;  }
    
 
 
@@ -141,7 +144,7 @@ justify-content: left;
  
  .footer-subscribe-title {
    margin-left: 0;
-   
+   text-align: start ;
  }
 .footer-subscribe-wrap {
   

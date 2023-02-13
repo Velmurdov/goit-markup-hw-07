@@ -4,21 +4,8 @@
     }
 /* --------------------------HERO------------------------------- */
 
-    .hero-title {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.1;
-        /* or 107% */
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
-      
-       width: 318px;
-       margin: 0 auto;
-       margin-bottom: 72px;
-        }
-      
+    
+    
       
        
         .hero{
