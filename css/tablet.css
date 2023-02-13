@@ -69,6 +69,7 @@ letter-spacing: 0.04em;
         rgba(46, 47, 66, 0.7)
       ) , url(../img/hero-bg-tablet.jpg);
           padding: 112px 0;
+          max-width: 768px;
       }
 /* --------------------------FUTURES------------------------------- */
 .futures > .container {
@@ -85,6 +86,13 @@ letter-spacing: 0.04em;
 /* --------------------------TEAM------------------------------- */
     .team {
  padding: 96px 108px 104px;
+    }
+    .team-list {
+      display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 24px;
+     
     }
 
     .team-item {
@@ -113,24 +121,42 @@ letter-spacing: 0.04em;
    justify-content:flex-start ;
  }
 
+ .footer-content{
+  flex: none;
+  justify-content: left;
+ }
+
  .soc-media {
+flex: none;
+justify-content: left;
   margin-left: 24px;
   margin-top: 0;
 }
  .footer-subscribe {
-  
+ 
    margin-top: 72px;
    margin-right: 150px;
  }
- .footer-title {
+
+ 
+ .footer-subscribe-title {
    margin-left: 0;
+   
  }
 .footer-subscribe-wrap {
-  display: flex;
-  flex-wrap: nowrap;
+  
+    flex-wrap: nowrap;
+
+
 }
 .footer-input{
 width: 264px;
 }
 
 }
+
+/*---------------------------- MODAL ----------------------------*/
+
+.modal {
+  width: 408px;
+  height: 576px;  }

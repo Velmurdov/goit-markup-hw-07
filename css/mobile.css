@@ -37,6 +37,12 @@
           gap: 72px;
         }
 
+        .futures-icons-link{
+            display: none;
+          }
+
+
+
        
         /* --------------------------FOOTER------------------------------- */
 
@@ -44,14 +50,11 @@
            
         }
         .footer-subscribe {
-            
            margin-right: auto;
-          
         }
 
         .footer-subscribe-wrap {
-            justify-content: center;
-            flex-wrap: wrap;
+            
 
         }
    
