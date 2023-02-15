@@ -73,7 +73,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 
-width: 496px;
+max-width: 496px;
 margin: 0 auto;
 margin-bottom: 48px;
 }
@@ -109,7 +109,7 @@ font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: var(--lh-title);
-
+text-align: start;
 }
 
 .futures-item:not(:nth-child(4n)) {
@@ -205,8 +205,15 @@ line-height: var(--lh-title);
 
    margin: 0;
   } 
+  .footer-input {
+    max-width: 264px;
+  }
   
-}
-.footer-input {
-  max-width: 264px;
+  /*---------------------------- MODAL ----------------------------*/
+  
+  .modal {
+    width: 408px;
+    height: 576px; 
+    overflow: auto; }
+  
 }
